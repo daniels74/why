@@ -1,0 +1,16 @@
+.img-wrapper {
+  width: 75%;
+  height: 300px; /* or any fixed height you want */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* optional: crops any overflow */
+  border-radius: 2rem;
+}
+
+.img {
+  height: 100%;
+  width: auto;
+  object-fit: cover; /* optional: use "contain" if you want the whole image visible */
+  display: block;
+}
